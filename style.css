@@ -1,0 +1,209 @@
+body{
+    margin: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page1{
+    height: 90vh;
+}
+#page2{
+    background-color: black;
+    height: 40vh;
+    border-bottom: solid;
+}
+#page3{
+    background-color: lightslategrey;
+    height: 70vh;
+}
+.header{
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vmin;
+    width: 98.3vw;
+    background-color: white;
+    opacity: 0.6;
+}
+.h1{
+    margin-left: 6vmin;
+    cursor: pointer;
+    width: 25vmin;
+    opacity: 1;
+}
+.h1_{
+    font-size: 3vmin;
+    width: 26vmin;
+}
+.h1_span{
+    color: rgb(2, 71, 71);
+}
+.navbar{
+    width: 30vmin;
+    height: 4vmin;
+    margin-right: 7vmin;
+    margin-top: 1vmin;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 30vmin;
+    height: 4vmin; 
+}
+nav a{
+    font-weight: 700;
+    opacity: 1;
+    color: black;
+    font-size:2.7vmin;
+    text-decoration: none;
+}
+nav a:nth-child(1):hover{
+    color: blue;
+    transition: 50ms;
+    border-bottom: solid; 
+}
+nav a:nth-child(2):hover{
+    color: blue;
+    transition: 50ms;
+    border-bottom: solid; 
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+.head_about{
+    color: white;
+    width: max-content;
+    font-size: 3vmin;
+    margin-top: 0;
+    padding-top: 2vmin;
+    margin-left: 6vmin;
+    cursor: pointer;
+}
+.head_service{
+    margin: 0;
+    padding-top: 3vmin;
+    margin-left: 6vmin;
+    width: max-content;
+    font-size: 3vmin;
+    cursor: pointer;
+}
+.about_span{
+    color: rgb(89, 182, 182);
+}
+.service_span{
+    color: rgb(14, 1, 73);
+}
+.main_img_div{
+    position: absolute;
+}
+.banner_img_div{
+    position: absolute;
+}
+.banner_img{
+    height: 89.8vh;
+    width: 98.5vw;
+    object-fit: cover;
+}
+.heading_banner_text_div{
+    position: relative;
+    width: 98.5vw;
+    text-align: center;
+    color: white;
+    margin-top: 40vh;
+    cursor: pointer;
+    text-shadow: 0vmin 1vmin 5vmin lightslategray;
+}
+.banner_text{
+    font-size: 7vmin;
+}
+.S , .A{
+    color: cyan;
+    text-shadow: 0vmin 1vmin 5vmin cyan;
+}
+.contact_button_div{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 98.5vw;
+    text-align: center;
+    margin-top: 2vh;
+}
+.Contact_button{
+    width: 20vmin;
+    height: 7vmin;
+    font-size: 2.8vmin;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 2vmin;
+    box-shadow: 0vmin 1vmin 6vmin crimson;
+    cursor: pointer;
+}
+.Contact_button:hover{
+    box-shadow: 0vmin 1vmin 6vmin blue;
+    color: white;
+    background-color: rgb(53, 53, 255);
+}
+.links{
+    display: flex;
+    justify-content: center;
+    margin-top: 18vh;
+    position: relative;
+}
+.link_img{
+    object-fit: cover;
+    width: 6vmin;
+    height: 6vmin;
+    margin-left: 1vmin;
+    margin-right: 1vmin;
+    border: solid black;
+    border-radius: 5vmin;
+}
+.about_description{
+    color: white;
+    margin-top: 4vmin;
+}
+.span1{
+    font-size: 2.2vmin;
+}
+.services_div{
+    margin-top: 5vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.service_span{
+    color: blue;
+}
+.section1{
+    border-radius: 3vmin;
+    background-color: lightblue;
+    margin-top: 2vmin;
+    border: solid;
+    width: 40vmin;
+}
+.section1:hover{
+    box-shadow: 0vmin 1vmin 5vmin;
+}
+.section1_img{
+    border-radius: 2vmin;
+    object-fit: cover;
+    width: 40vmin;
+    height: 30vmin;
+}
+.section1_text{
+    font-size: 2.6vmin;
+}
+.counter{
+    text-align: center;
+}
+.counter_text{
+    font-size: 3vmin;
+}
+.counter_img{
+    border: solid;
+    width: 20vmin;
+}
